@@ -22,7 +22,7 @@ app.get("/search", (req, res) => {
 app.get("/result", (req, res) => {
     let curr1 = req.query.curr;
     let curr2 = req.query.targ;
-    let url = ` https://v6.exchangerate-api.com/v6/c146bcaf0e48acd30e012222/pair/${curr1}/${curr2}`;
+    let url = ` https://v6.exchangerate-api.com/v6/<| Add Your Key Or Token |>/${curr1}/${curr2}`;
     request(url, (error, response, body) => {
         if (!error && res.statusCode == 200) {
             let appData = JSON.parse(body);
