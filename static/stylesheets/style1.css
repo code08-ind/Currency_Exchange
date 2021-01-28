@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ff00cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #333399,
+    #ff00cc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #333399,
+    #ff00cc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow-x: hidden;
+}
+
+nav.navbar {
+  background-color: rgb(0, 0, 143);
+  position: relative;
+  border-bottom: 4px solid #fff;
+}
+
+nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+  padding-top: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Fira Sans", sans-serif;
+  transition: all 0.4s ease-in;
+}
+
+nav.navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+  color: rgb(0, 195, 255);
+}
+
+nav.navbar a.navbar-brand {
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+}
+
+nav.navbar a.navbar-brand span {
+  font-style: italic;
+  color: #ff9900;
+}
+
+nav.navbar img {
+  height: 50px;
+  width: 50px;
+  filter: invert(1);
+}
+
+h1#head {
+  margin-top: 10px;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+h1#head img {
+  height: 60px;
+  width: 60px;
+  filter: invert(1);
+}
+
+h1#head span {
+  font-style: italic;
+  color: #ff9900;
+}
+
+h4 {
+  text-align: center;
+  margin: 15px 0;
+  font-family: "Bodoni Moda", serif;
+  font-size: 1.8em;
+  color: rgb(51, 255, 0);
+  text-shadow: 2px 2px 2px black;
+}
+
+h5 {
+  text-align: center;
+  margin: 5px 0;
+  font-family: "Yusei Magic", sans-serif;
+  color: #0011ff;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 2px black;
+}
+
+p {
+  margin: 15px 140px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3em;
+  color: rgb(223, 226, 43);
+  text-shadow: 3px 2px 2px orange;
+}
+
+div.container div.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.container div.row div.col-md-6 form {
+  margin-top: 30px;
+}
+
+div.container div.row div.col-md-6 form button {
+  margin: 0 auto;
+}
